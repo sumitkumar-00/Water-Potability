@@ -49,13 +49,14 @@ Indicates if water is safe for human consumption where 1 means Potable and 0 mea
 The project is divided into following sections
 1. ETL Pipeline that loads data from files, cleans data and then saves in a sqlite database
 2. Machine Learning Pipeline that normalizes and trains model to be used for classifying messages
-3. Web application that shows information about data used to train the model and an interface to 
-classify messages in real time
+3. Web application that takes above-mentioned parameters as input and predicts the potability of water in real time
+ 
 ## Getting Started <a name='GetStarted'></a>
 ### Dependencies <a name='Dependencies'></a>
 Following packages were used in this project
 * numpy
 * sklearn
+* seaborn
 * matplotlib
 * joblib
 * flask
@@ -79,6 +80,7 @@ Feel free to make changes
 I would like to thank Kaggle making this data available
 ## Screenshots <a name='Screenshots'></a>         
 ![charts](static/images/screenshot.png)
+![charts](static/images/correlation.png)
 
 
 
