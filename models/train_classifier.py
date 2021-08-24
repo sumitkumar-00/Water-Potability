@@ -110,6 +110,8 @@ def main():
         # Save best model file
         save_best_model(results)
 
+    else:
+        print("Please pass data file and pickle file name as arguments")
 
 def save_best_model(results):
     """
